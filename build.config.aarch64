@@ -1,0 +1,12 @@
+ARCH=arm64
+
+CLANG_TRIPLE=aarch64-linux-gnu-
+CROSS_COMPILE=arm-linux-gnueabi-
+LINUX_GCC_CROSS_COMPILE_PREBUILTS_BIN=/bin
+LINUX_GCC_CROSS_COMPILE_COMPAT_PREBUILTS_BIN=/bin
+
+FILES="
+arch/arm64/boot/Image.gz
+vmlinux
+System.map
+"
